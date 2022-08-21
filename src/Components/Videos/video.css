@@ -1,0 +1,35 @@
+.div-1-invideo {
+    margin: 40px 10%;
+}
+.div-2-invideo {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        grid-gap: 20px;
+}
+
+.div-3-invideo  {
+    display: flex;
+    flex-direction: column;
+}
+.p-1-invideo {
+    margin: 2px 0px;
+}
+@media screen and (max-width: 1200px) {
+    .div-2-invideo {
+        columns: 3;
+        column-gap: 20px;
+    } 
+  }
+  @media screen and (max-width: 1024px) {
+    .div-2-invideo {
+        columns: 2;
+        column-gap: 20px;
+    } 
+  }
+  @media screen and (max-width: 480px) {
+    .div-2-invideo {
+        columns: 1;
+        column-gap: 20px;
+    } 
+  }

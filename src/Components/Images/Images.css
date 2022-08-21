@@ -1,0 +1,42 @@
+.div-1-inimage {
+    margin: 40px 10%;
+}
+.div-2-inimage {
+    columns: 4;
+    column-gap: 20px;
+}
+
+.div-3-inimage {
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+}
+.div-3-inimage:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.a-1-inimage {
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+}
+.a-1-inimage:hover {
+    text-decoration: underline;
+    color: rgb(57, 87, 178);
+}
+@media screen and (max-width: 1200px) {
+    .div-2-inimage {
+        columns: 3;
+        column-gap: 20px;
+    } 
+  }
+  @media screen and (max-width: 1024px) {
+    .div-2-inimage {
+        columns: 2;
+        column-gap: 20px;
+    } 
+  }
+  @media screen and (max-width: 480px) {
+    .div-2-inimage {
+        columns: 1;
+        column-gap: 20px;
+    } 
+  }

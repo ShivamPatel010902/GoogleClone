@@ -1,0 +1,119 @@
+
+.firstcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    width:100%;
+    position: sticky;
+}
+.subcentercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 20px 20px; 
+}
+.inputbox {
+    height: 50px;
+    width: 650px;
+    outline: none;
+    border: 0px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.inputbox:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+  }
+  
+.buttonforsearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    outline: none;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 50px;
+}
+.buttonforsearch:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+  }
+  
+.buttonforendpoint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    outline: none;
+    background-color: white;
+}
+
+.inputbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchsection {
+    color: #3c4043;
+    font-size: 18px;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .secondcontainer {
+    display: flex;
+    margin: 10px 30%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  @media screen and (max-width: 1200px) {
+    .inputbox {
+        height: 50px;
+        width: 550px;
+        outline: none;
+        border: 0px;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .inputbox {
+        height: 50px;
+        width: 450px;
+        outline: none;
+        border: 0px;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .inputbox {
+        height: 50px;
+        width: 350px;
+        outline: none;
+        border: 0px;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .inputbox {
+        height: 50px;
+        width: 250px;
+        outline: none;
+        border: 0px;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+  }
+  

@@ -1,0 +1,36 @@
+
+.div-1-incontain {
+    margin: 10px 30%;
+}
+.div-2-incontain {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.div-3-incontain {
+  margin:  5px 0px;
+}
+.a-1-incontain {
+  text-decoration: none;
+}
+.p-1-incontain
+{
+  color: rgb(62, 62, 62);
+  margin: 8px 0px;
+}
+.h3-1-incontain
+{
+  color: #3434aa;
+  margin: 5px 0px;
+}
+.h3-1-incontain:hover {
+  text-decoration: underline;
+}
+.p-2-incontain {
+  margin: 5px 0px;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 18px;
+}
+
