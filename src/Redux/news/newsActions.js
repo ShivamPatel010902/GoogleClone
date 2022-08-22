@@ -50,7 +50,3 @@ export const fetchNewsFailure = (error) => {
     payload: error,
   };
 };
-/*"X-User-Agent": "desktop",
-            "X-Proxy-Location": "EU",
-            "X-RapidAPI-Host": "google-search3.p.rapidapi.com",
-            'X-RapidAPI-Key': 'ecfdca3760msh20a1325ee6da767p181907jsn1d83307bb22b',*/
